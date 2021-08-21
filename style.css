@@ -15,18 +15,10 @@ body {
 hr {
     width: 95%;
 }
-.social {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-}
 .qlq {
     text-align: center;
     margin-top: 20px;
     height: 356px;
-    
-    
 }
 .contato {
     display: inline-block;
@@ -37,7 +29,6 @@ hr {
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
-
 }
 .contato2 {
     display: inline-block;
@@ -47,15 +38,20 @@ hr {
     overflow: hidden;
     background-color: whitesmoke;
     text-align: center;
-    
+}
+#down {
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
 }
 .downloads {
     text-align: center;
-    margin: 5%;
+    margin-top: 20px;
+    padding-left: 0px;
 }
 ul {
     list-style-type: none;
-    padding: 0;
     color: black;
   }
 li {
@@ -63,13 +59,13 @@ li {
     padding: 10px;
     background-color: whitesmoke;
   }
-li a:hover {
-    background-color: #09B6ED;
+li:hover {
+    background-color: #09B6ED;  
 }
-li a:link, a:visited{
-    text-decoration: none
-}
-a a:visited a:link{
+a:link, a:visited{
     text-decoration: none;
     color: black;
+}
+footer {
+    height: 50px;
 }
