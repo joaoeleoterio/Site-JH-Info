@@ -20,6 +20,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 20px;
     max-width: 95%;
 }
 .contato {
@@ -29,16 +30,18 @@ hr {
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
-    
 }
 .contato2 {
     top: 0;
-    
     width: 490px;
     background-size: cover;
     background-image: url(contatoimg.webp);
-  }
-
+}
+@media screen and (max-width: 800px) {
+    .contato2 {
+        display: none;
+    }
+}
 #down {
     margin-top: 20px;
     text-align: center;
