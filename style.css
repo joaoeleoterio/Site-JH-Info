@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #001740;
 }
@@ -18,16 +22,16 @@ hr {
     width: 5%;
 }
 .qlq {
-    display: flex;
-    margin: auto;
+    text-align: center;
     margin-top: 20px;
-    height: 336px;
-    width: 80%;
-    max-width: 1000px;
+    height: 356px;
+    
+    
 }
 .contato {
+    display: inline-block;
     top: 0;
-    width: 100%;
+    width: 490px;
     height: 100%;
     overflow: hidden;
     background-color: whitesmoke;
@@ -36,31 +40,27 @@ hr {
 
 }
 .contato2 {
-    --bg-overlay-color: transparent;
-    --fill-layer-image-opacity: 1;
-    --column-width: 490px;
-    --column-flex: 490;
+    display: inline-block;
+    top: 0;
+    width: 490px;
+    height: 100%;
+    overflow: hidden;
+    background-color: whitesmoke;
+    text-align: center;
     
 }
 .downloads {
-    display: flex;
-    margin: auto;
-    margin-top: 40px;
-    width: 80%;
-    max-width: 1000px;
-    
+    text-align: center;
+    margin: 5%;
 }
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    background-color: whitesmoke;
     color: black;
   }
 li {
-    display: inline;
-    float: left;
-    color: black;
+    display: inline-block;
+    padding: 10px;
     background-color: whitesmoke;
   }
 li a:hover {
@@ -69,8 +69,7 @@ li a:hover {
 li a:link, a:visited{
     text-decoration: none
 }
-.down {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
+a a:visited a:link{
+    text-decoration: none;
+    color: black;
+}
