@@ -19,27 +19,24 @@ hr {
 .qlq {
     text-align: center;
     margin-top: 20px;
-    height: 356px;
+    margin-left: 20px;
+    max-width: 95%;
 }
 .contato {
     display: inline-block;
     top: 0;
-    width: 490px;
+    max-width: 490px;
     height: 100%;
-    overflow: hidden;
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
 }
-.contato2 {
+img {
     display: inline-block;
-    top: 0;
-    width: 490px;
-    height: 100%;
-    overflow: hidden;
-    background-color: whitesmoke;
-    text-align: center;
-}
+    max-width: 100%;
+    height: auto;
+  }
+
 #down {
     margin-top: 20px;
     text-align: center;
